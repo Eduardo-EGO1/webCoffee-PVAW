@@ -1,5 +1,25 @@
-import { productContainer, imgCart, spanCart, sideCartContainer, cartContent, closeCart, cafeList, productTitle, totalPrice, buttonBuy, finishBuy } from "./dom.js";
-import { getCafeList } from "./api.js";
+//JUNTEI TUDO NO MAIN.JS 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 let listProducts = [];
@@ -7,7 +27,6 @@ let carts;
 
 function startCarts() {
   carts = JSON.parse(localStorage.getItem('cart')) || [];
-  console.log('startou')
 }
 
 function abrirCarrinho() {
@@ -22,9 +41,10 @@ function atualizarContador() {
     total = total + carts[i].quantity
   }
   spanCart.textContent = total;
-  console.log(finishBuy)
 }
-
+function fecharCarrinho() {
+  addProduto()
+}
 
 function somaCarrinho() {
   let soma = 0;
@@ -52,7 +72,6 @@ cartContent.addEventListener('click', (event) => {
       renderLocalCart();
     }
   }
-  console.log(carts)
 });
 
 cartContent.addEventListener('click', (event) => {
@@ -84,7 +103,6 @@ const changeQuantity = (product_id, type) => {
   }
   addCarrinhoLocal();
   renderLocalCart();
-  console.log(carts)
 }
 
 
@@ -223,6 +241,7 @@ function addProduto() {
               numberElement.innerText = carts[indexCart].quantity;
             }
           }
+          console.log('coloquei no carrinho')
         }
         sideCartContainer.classList.add('ativo');
 
@@ -236,15 +255,13 @@ function addProduto() {
 }
 
 
-export const addCarrinhoLocal = () => {
+const addCarrinhoLocal = () => {
   localStorage.setItem('cart', JSON.stringify(carts))
 };
 
 startCarts()
-imgCart.onclick = abrirCarrinho()
-closeCart.onclick = renderLocalCart
+imgCart.onclick = abrirCarrinho
 addProduto()
 renderLocalCart()
 atualizarContador()
 somaCarrinho()
-console.log(carts)

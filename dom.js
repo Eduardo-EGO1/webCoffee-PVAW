@@ -1,4 +1,7 @@
-import { getCafeList } from "./api.js";
+//JUNTEI TUDO NO MAIN.JS
+
+
+
 
 
 // SELETORES DOM
@@ -92,8 +95,7 @@ h1Logo.innerText = "Café Pelé"
 imgLogo.src = 'images/logo.png'
 imgCart.src = 'images/cart.png'
 
-export let finishBuy = false;
-let pagar = false;
+let finishBuy = false;
 
 function fecharCarrinho() {
 
@@ -104,6 +106,7 @@ function fecharCarrinho() {
     finishBuy = false;
     h2Side.textContent = "SEU CARRINHO"
     initComprarPage()
+    addProduto()
   }
   console.log(finishBuy)
 }
@@ -229,21 +232,8 @@ closeCart.src = 'images/closecart.svg'
 buttonIncrement.textContent = '+'
 buttonDecrement.textContent = '-'
 
-export {
-  productContainer,
-  imgCart,
-  spanCart,
-  sideCartContainer,
-  cartContent,
-  closeCart,
-  productTitle,
-  cartPrice,
-  totalPrice,
-  buttonBuy
-};
 
-
-export const cafeList = await getCafeList()
+const cafeList = await getCafeList()
 function initComprarPage() {
 
   buttonBuy.textContent = "Finalizar Compra"
