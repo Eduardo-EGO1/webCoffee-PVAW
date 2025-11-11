@@ -1,0 +1,94 @@
+{
+  "cafe": [
+    {
+      "title": "Black Coffee",
+      "description": "Café preto puro, feito apenas com grãos moídos e água quente. É simples e ideal para apreciar o sabor natural do café.",
+      "ingredients": ["Café"],
+      "price": 3.0,
+      "image": "https://images.unsplash.com/photo-1494314671902-399b18174975?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 1
+    },
+    {
+      "title": "Latte",
+      "description": "Uma mistura cremosa de espresso e leite vaporizado, com uma fina camada de espuma por cima. Pode ser servido puro ou com sabores adicionais, como baunilha ou caramelo.",
+      "ingredients": ["Espresso", "Leite vaporizado"],
+      "price": 4.5,
+      "image": "https://images.unsplash.com/photo-1561882468-9110e03e0f78?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxhdHRlfGVufDB8fDB8fHww",
+      "id": 2
+    },
+    {
+      "title": "Mocha Chocolate",
+      "description": "Mistura deliciosa de café espresso, leite vaporizado e calda de chocolate, coberta com chantilly.",
+      "ingredients": [
+        "Espresso",
+        "Leite vaporizado",
+        "Calda de chocolate",
+        "Chantilly"
+      ],
+      "price": 6.0,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5yovUHhG2rFJES4xSlgu8FGSjb9xOdmYcOg&s",
+      "id": 3
+    },
+    {
+      "title": "Café Gelado",
+      "description": "Refrescante bebida de café espresso misturado com gelo e um toque de leite. Ideal para dias quentes.",
+      "ingredients": ["Espresso", "Gelo", "Leite", "Açúcar"],
+      "price": 4.8,
+      "image": "https://espaconatelie.com.br/wp-content/uploads/2024/10/receita-de-cafe-gelado.jpg",
+      "id": 4
+    },
+    {
+      "title": "Macchiato Caramelo",
+      "description": "Espresso com uma fina camada de leite vaporizado e calda de caramelo, equilibrando o amargo e o doce.",
+      "ingredients": ["Espresso", "Leite vaporizado", "Calda de caramelo"],
+      "price": 5.2,
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=800",
+      "id": 5
+    },
+    {
+      "title": "Flat White",
+      "description": "Clássico australiano feito com espresso duplo e leite vaporizado aveludado, resultando em textura cremosa.",
+      "ingredients": ["Espresso duplo", "Leite vaporizado"],
+      "price": 5.8,
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=800",
+      "id": 6
+    },
+    {
+      "title": "Cappuccino Italiano",
+      "description": "Tradicional cappuccino feito com partes iguais de espresso, leite vaporizado e espuma de leite, finalizado com uma pitada de cacau.",
+      "ingredients": [
+        "Espresso",
+        "Leite vaporizado",
+        "Espuma de leite",
+        "Cacau em pó"
+      ],
+      "price": 5.0,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-lmc_Ce8NOFQjA1l2i21V_Qs7ZnU4VO1IQ&s",
+      "id": 7
+    },
+    {
+      "title": "Affogato",
+      "description": "Sobremesa italiana que combina uma bola de sorvete de baunilha com um shot quente de espresso. Um contraste perfeito entre quente e frio.",
+      "ingredients": ["Espresso", "Sorvete de baunilha"],
+      "price": 6.5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw8dQmsWHqvL5YvlQzD2lk306keXNUpo7bQg&s",
+      "id": 8
+    },
+    {
+      "title": "Café com Canela",
+      "description": "Café filtrado com um toque de canela em pó, trazendo um aroma intenso e sabor levemente adocicado.",
+      "ingredients": ["Café filtrado", "Canela em pó"],
+      "price": 3.8,
+      "image": "https://hubdocafe.cooxupe.com.br/wp-content/uploads/2021/12/coffee-gd32aef29d_1920.jpg",
+      "id": 9
+    },
+    {
+      "title": "Irish Coffee",
+      "description": "Combinação sofisticada de café quente, uísque irlandês, açúcar mascavo e chantilly. Um clássico para dias frios.",
+      "ingredients": ["Café", "Uísque irlandês", "Açúcar mascavo", "Chantilly"],
+      "price": 7.5,
+      "image": "https://mymocktailforest.com/wp-content/uploads/2024/03/non-alcoholic-irish-coffee-7.jpg",
+      "id": 10
+    }
+  ]
+}
